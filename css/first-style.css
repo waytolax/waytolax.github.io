@@ -707,50 +707,6 @@ template {
   }
 }
 
-@media (min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 660px) and (min-resolution: 144dpi), (min-width: 660px) and (min-resolution: 1.5dppx) {
-  .page-header__background {
-    background-image: url("../img/tablet/iphone-hand-tablet@2x.png"), url("../img/tablet/bg-back-tablet@2x.jpg");
-  }
-
-  .form-page .page-header__background,
-  .photo-page .page-header__background {
-    background-image: url("../img/tablet/bg-back-tablet@2x.jpg");
-  }
-}
-
-@media (min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 660px) and (min-resolution: 144dpi), (min-width: 660px) and (min-resolution: 1.5dppx) {
-  .page-header__background.webp {
-    background-image: url("../img/tablet/iphone-hand-tablet@2x.webp"), url("../img/tablet/bg-back-tablet@2x.webp");
-  }
-
-  .form-page .page-header__background.webp,
-  .photo-page .page-header__background.webp {
-    background-image: url("../img/tablet/bg-back-tablet@2x.webp");
-  }
-}
-
-@media (min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
-  .page-header__background {
-    background-image: url("../img/desktop/iphone-hand-desktop@2x.png"), url("../img/desktop/bg-back-desktop@2x.jpg");
-  }
-
-  .form-page .page-header__background,
-  .photo-page .page-header__background {
-    background-image: url("../img/desktop/bg-back-desktop@2x.jpg");
-  }
-}
-
-@media (min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
-  .page-header__background.webp {
-    background-image: url("../img/desktop/iphone-hand-desktop@2x.webp"), url("../img/desktop/bg-back-desktop@2x.webp");
-  }
-
-  .form-page .page-header__background.webp,
-  .photo-page .page-header__background.webp {
-    background-image: url("../img/desktop/bg-back-desktop@2x.webp");
-  }
-}
-
 @media (min-width: 660px) {
   .page-header__logo--mobile {
     display: none;
@@ -846,6 +802,28 @@ template {
 
   .icon-list {
     margin: 0 50px;
+  }
+}
+
+@media (min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 660px) and (min-resolution: 144dpi), (min-width: 660px) and (min-resolution: 1.5dppx) {
+  .page-header__background {
+    background-image: url("../img/tablet/iphone-hand-tablet@2x.png"), url("../img/tablet/bg-back-tablet@2x.jpg");
+  }
+
+  .form-page .page-header__background,
+  .photo-page .page-header__background {
+    background-image: url("../img/tablet/bg-back-tablet@2x.jpg");
+  }
+}
+
+@media (min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 660px) and (min-resolution: 144dpi), (min-width: 660px) and (min-resolution: 1.5dppx) {
+  .page-header__background.webp {
+    background-image: url("../img/tablet/iphone-hand-tablet@2x.webp"), url("../img/tablet/bg-back-tablet@2x.webp");
+  }
+
+  .form-page .page-header__background.webp,
+  .photo-page .page-header__background.webp {
+    background-image: url("../img/tablet/bg-back-tablet@2x.webp");
   }
 }
 
@@ -945,5 +923,27 @@ template {
   .app-download__button {
     font-size: 21px;
     margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
+  .page-header__background {
+    background-image: url("../img/desktop/iphone-hand-desktop@2x.png"), url("../img/desktop/bg-back-desktop@2x.jpg");
+  }
+
+  .form-page .page-header__background,
+  .photo-page .page-header__background {
+    background-image: url("../img/desktop/bg-back-desktop@2x.jpg");
+  }
+}
+
+@media (min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
+  .page-header__background.webp {
+    background-image: url("../img/desktop/iphone-hand-desktop@2x.webp"), url("../img/desktop/bg-back-desktop@2x.webp");
+  }
+
+  .form-page .page-header__background.webp,
+  .photo-page .page-header__background.webp {
+    background-image: url("../img/desktop/bg-back-desktop@2x.webp");
   }
 }
